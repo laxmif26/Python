@@ -1,0 +1,42 @@
+///////////Program to print 1 to 100 even numbers using while inside if////////////
+i=1
+while(i<=100):
+  if(i%2==0):
+    print(i)
+  i+=1
+
+//////////////Program to print 1 to 100 even numbers using while not using if///////////////
+i=2
+while(i<=100):
+  print(i)
+  i+=2
+//////////////Program to print 100 to 1 even numbers using while inside if/////////
+i=100
+while(i>0):
+  if(i%2==0):
+    print(i)
+  i-=1
+///////////////Program to print 100 to 1 even numbers using while not using if///////
+i=100
+while(i>0):
+  print(i)
+  i-=2
+////////////// Program to print 1 to 100 odd numbers using while inside if//////////
+i=1
+while(i<=100):
+  if(i%2!=0):
+    print(i)
+  i+=1
+//////////// Program to print 1 to 100 odd numbers using while not using if//////
+i=1
+while(i<=100):
+  print(i)
+  i+=2
+////////////Program to print 100 to 1 odd numbers using while inside if///////
+i=100
+while(i>0):
+  if(i%2!=0):
+    print(i)
+  i-=1
+////////
+
