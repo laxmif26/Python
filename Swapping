@@ -1,0 +1,30 @@
+With the help of extra variable
+a=10
+b=23
+print("The value a before swapping", a)
+print("The value b before swapping", b)
+c=a
+a=b
+b=c
+print("The value a after swapping", a)
+print("The value b after swapping", b)
+
+Without the help of extra variable
+a=1
+b=23
+print("The value a before swapping", a)
+print("The value b before swapping", b)
+a=a+b
+b=a-b
+a=a-b
+print("The value of a after swapping:- ",a)
+print("The value of b after swapping:- ",b)
+
+SWAPPING IN PYTHON
+a=1
+b=23
+print("The value a before swapping", a)
+print("The value b before swapping", b)
+a,b=b,a
+print("The value of a after swapping:- ",a)
+print("The value of b after swapping:- ",b)
