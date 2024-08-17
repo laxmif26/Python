@@ -25,3 +25,17 @@ if(salary>10000 OR age>30):
 else:
     new_salary=salary+500
     print(new_salary)
+
+BY USING NESTED IF ELSE
+salary=int(input("Enter the salary:- "))
+age=int(input("Enter the age:- "))
+if(salary>10000):
+    if(age>30):
+        new_salary=salary+1000
+        print(new_salary)
+    else:
+        new_salary=salary+500
+        print(new_salary)
+else:
+    new_salary=salary+500
+    print(new_salary)
