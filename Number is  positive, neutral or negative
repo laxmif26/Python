@@ -1,0 +1,16 @@
+num=int(input("Enter number:- "))
+if(num==0):
+    print(num, "is a neutral number")
+elif(num>0):
+    print(num,"is a positive number")
+else:
+    print(num,"is a negative number")
+
+WITHOUT USING  ELSE OR ELIF
+num=int(input("Enter number:- "))
+if(num==0):
+    print(num, "is a neutral number")
+if(num>0):
+    print(num,"is a positive number")
+if(num<0):
+    print(num,"is a negative number")
