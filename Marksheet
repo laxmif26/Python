@@ -1,0 +1,9 @@
+e=int(input("Enter the marks of English:- "))
+h=int(input("Enter the marks of Hindi:- "))
+m=int(input("Enter the marks of Maths:- "))
+s=int(input("Enter the marks of Science:- "))
+ss=int(input("Enter the marks of Social Science"))
+total=e+h+m+s+ss
+Per=total/5
+print("The sum of all subjects:- ",total)
+print("Percentage:- ",Per)
