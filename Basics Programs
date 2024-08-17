@@ -1,1 +1,49 @@
+AREA OF TRAINGLE 
+b=int(input("Enter the breadth:- "))
+h=int(input("Enter the length:- "))
+area=(b*h)/2
+print("Area of triangle is :- ", area)
+
+AREA OF SQUARE
+s=int(input("Enter the side:- "))
+area=s*s
+print("Area of Square is :- ", area)
+
+AREA OF RECTANGLE 
+l=int(input("Enter the lenghth:- "))
+b=int(input("Enter the breadth:-"))
+area=l*b
+print("Area of Rectangle is ",area)
+
+AREA OF CIRCLE
+pie=3.14
+r=int(input("Enter the radius :-"))
+area=int(r*r*pie)
+print("Area of Circle is:- ", area)
+
+SIMPLE INTEREST
+p=int(input("Enter the principle:-  "))
+r=int(input("Enter the rate of interest:- "))
+t=int(input("Enter the time in years:- "))
+SI=(p*r*t)/100
+print("Simple Interest", SI)
+
+COMPOUND PROGRAM
+p=int(input("Enter the principle:-  "))
+r=int(input("Enter the rate:- "))
+n=int(input("Enter the number of time :- "))
+t=int(input("Enter the time in years:- "))
+A=p*(1+r/n)**n*t
+CI=A-p
+print("Compund Interest is ",CI)
+
+CHANGING THE VALUE FROM KM to Meter
+a=6
+b= a*1000
+print("The value of",a,"in meter is",b)
+
+CHANGING THE VALUE FROM Meter into KM
+a=600
+b=a/1000
+print("The value of ",a, "in kilometer is",b)
 
