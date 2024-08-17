@@ -1,0 +1,9 @@
+num=int(input("Enter the number:- "))
+if(num>0 and num%2==0):
+    print(num, "is a postive and even number")
+elif(num<0 and num%2==0):
+    print(num,"is a negative and even number")
+elif(num>0 and num%2!=0):
+    print(num, "is a positive and odd number")
+else:
+    print(num, "is a negative and odd number")
